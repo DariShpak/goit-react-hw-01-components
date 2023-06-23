@@ -23,6 +23,8 @@ margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
+
 
 }
 
@@ -39,5 +41,6 @@ margin-top: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color:#dfd8d8;
+  border-radius: 4px;
 }
 

@@ -1,5 +1,6 @@
-import Profile from './Profile/profile.js';
-import user from '../user.json';
+import { Profile} from 'components/Profile/profile';
+import user from 'user.json';
+
 
 export const App = () => {
   return (
@@ -12,5 +13,5 @@ location={user.location}
 stats={user.stats}
 />
     </div>
-);
-};
+    )
+}

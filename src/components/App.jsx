@@ -15,7 +15,9 @@ avatar={user.avatar}
 tag={user.tag}
 username={user.username}
 location={user.location}
-stats={user.stats}
+followers={user.stats.followers}
+views={user.stats.views}
+likes={user.stats.likes}
 />}
 
 {<StatList title="Upload stats" stats={data} />}

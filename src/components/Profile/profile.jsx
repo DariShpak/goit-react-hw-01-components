@@ -36,11 +36,9 @@ avatar: PropTypes.string.isRequired,
 tag: PropTypes.string.isRequired,
 username: PropTypes.string.isRequired,
 location: PropTypes.string.isRequired,
-stats: PropTypes.objectOf(PropTypes.exact({
   followers: PropTypes.number.isRequired,
   views: PropTypes.number.isRequired,
-  likes: PropTypes.number.isRequired
-})),
+  likes: PropTypes.number.isRequired,
 
 }
 

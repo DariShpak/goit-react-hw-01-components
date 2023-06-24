@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { StatItem } from '../StatItem/StatItem';
 
 
-export const StatList = ({ id, title, stats }) => {
+export const StatList = ({ title, stats }) => {
     return (
 
       <section className={css.statistics}>
@@ -27,10 +27,7 @@ export const StatList = ({ id, title, stats }) => {
 
 StatList.propTypes = {
   title: PropTypes.string,
-  stats: PropTypes.arrayOf(PropTypes.exact({
-    id: PropTypes.string.isRequired,
-    label: PropTypes.string.isRequired,
-    percentage: PropTypes.number.isRequired,})),
-
+  stats: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string.isRequired})),
 } 
 
